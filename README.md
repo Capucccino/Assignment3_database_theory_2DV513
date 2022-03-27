@@ -1,5 +1,6 @@
 # Assignment3_database_theory_2DV513
-School project in database theory by Marwan Laroussi
+School project in database theory by Marwan Laroussi 
+
 You can click on [this link](https://youtu.be/CP6MlCjcyDE) to see my demonstration video on youtube. 
 
 __To start the application:__
