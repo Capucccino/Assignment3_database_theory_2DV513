@@ -88,7 +88,7 @@ def mvp():
     con = mysql.connect(host="localhost", user="root",password="root", database = "basket")
     custor = con.cursor()
 
-    custor.execute("select sport, count(*) as number from Court c, Reservation r where c.court_id = r.court_id group by c.sport order by count(*) DESC;")
+    custor.execute("select sport, count(*) as number from Court c join Reservation r on c.court_id=r.court_id group by c.sport order by count(*) DESC;")
     result = custor.fetchall()
 
     List.delete(0,END)
